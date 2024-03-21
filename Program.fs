@@ -20,7 +20,7 @@ let test = [2.0; 3.0; 4.0]
 List.iter printResults test
 
 //Step 2 Tail Recursion 1:
-let rec itemsInList lst =
+let rec productofListItem lst =
     let rec itemsAcc item lst =
         match lst with
         | [] -> item
@@ -28,8 +28,24 @@ let rec itemsInList lst =
     itemsAcc 1 lst
 // Test the function with a list of numbers
 let testList = [1; 2; 3; 4; 5]
-let product = itemsInList testList
+let product = productofListItem testList
 printfn "Step 2"
 printfn "Product of the list: %d" product
 
 //Step 3 Tail Recursion 2:
+let productOfOddNumbersInList lst =
+    let rec itemAcc acc lst =
+        match lst with
+        | [] -> acc
+        | head::tail ->
+            if head % 2 = 0 then
+                itemAcc acc tail // Skip even numbers
+            else
+                itemAcc (acc * head) tail // Multiply accumulator by odd numbers
+    productAcc 1 lst
+// Test the function with a list of numbers
+let myList = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]
+let product = productOfOddNumbersInList myList
+printfn "Step 3"
+printfn "Product of odd numbers in the list: %d" product
+
