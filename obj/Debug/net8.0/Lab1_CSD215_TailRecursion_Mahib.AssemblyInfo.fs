@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("Lab1_CSD215_TailRecursion_Mahib")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf0782aa7d5aeebc092ef2787de403af6a037398")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+902a31860e10f8fb2126fc60310e4564cb693ef7")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("Lab1_CSD215_TailRecursion_Mahib")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("Lab1_CSD215_TailRecursion_Mahib")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
