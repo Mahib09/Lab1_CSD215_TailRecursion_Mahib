@@ -49,3 +49,9 @@ let product = productOfOddNumbersInList myList
 printfn "Step 3"
 printfn "Product of odd numbers in the list: %d" product
 
+//Step 4 Use of Map function
+let names = [" Charles"; "Babbage  "; "  Von Neumann  "; "  Dennis Ritchie  "]
+let trimmedNames = List.map (fun name -> name.Trim()) names
+// Print the trimmed names
+printfn "Trimmed names: %A" trimmedNames
+
