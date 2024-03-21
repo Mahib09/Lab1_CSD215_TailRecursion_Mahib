@@ -55,3 +55,14 @@ let trimmedNames = List.map (fun name -> name.Trim()) names
 // Print the trimmed names
 printfn "Trimmed names: %A" trimmedNames
 
+//Step 5 Using Filter and Reduce with a Collection:
+// Create a sequence of the first 700 positive integers
+let numbersSequence = Seq.initInfinite (fun i -> i + 1)
+// Convert the sequence into a list
+let numbersList = Seq.toList numbersSequence
+// Filter out numbers that are multiples of both 7 and 5
+let filteredNumbers = List.filter (fun x -> x % 7 <> 0 || x % 5 <> 0) numbersList
+// Sum all the filtered numbers using the reduce function
+let sum = List.reduce (+) filteredNumbers
+// Print the sum
+printfn "Sum of filtered numbers: %d" sum
