@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jSAjWHsyiy6+0iXz1wtPIWZ2bbZVg89i7dzvONd+C9cKCyNdhQza2cztHrCKaBmpFpO4UfZlN15TTkBKiQErAQ==",
+  "success": true,
+  "projectFilePath": "D:\\Computer Programming Course\\Semester 3\\Programming Paradigm\\Day 5\\Lab1_CSD215_TailRecursion_Mahib\\Lab1_CSD215_TailRecursion_Mahib.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\magar\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
